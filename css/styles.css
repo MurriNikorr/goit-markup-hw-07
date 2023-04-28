@@ -142,10 +142,11 @@ body {
 .mob-menu {
   position: fixed;
   top: 0;
-  width: 100%;
+  left: 0;
+  /* width: 100%; */
   height: 100%;
-  /* width: 100vw;
-  height: 100vh; */
+  /* width: 100vw; */
+  /* height: 100vh; */
   background-color: var(--background-color);
   padding: 24px 24px 40px 40px;
   display: flex;
@@ -193,6 +194,10 @@ body {
   color: var(--color-link);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.current {
+  color: var(--color-link);
+}
 .menu-address-cont {
 }
 .mob-menu-address {
@@ -214,6 +219,9 @@ body {
 .menu-address-tel:hover {
   color: var(--color-link);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.current {
+  color: var(--color-link);
 }
 .menu-address-email {
   font-family: "Roboto";
@@ -307,7 +315,7 @@ body {
 .hero-container {
   display: flex;
   justify-content: center;
-  padding-bottom: 112px;
+  /* padding-bottom: 112px; */
   /* padding-bottom: 188px; */
 }
 .hero-btn {
@@ -352,7 +360,7 @@ body {
   transform: translate(-50%, -50%);
 
   width: 408px;
-  height: 576px;
+  height: 584px;
 
   background-color: var(--modal);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -704,11 +712,11 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding-bottom: 32px;
 }
 .team-soc-item {
   width: 40px;
   height: 40px;
-  margin-bottom: 32px;
 }
 .team-soc-link {
   width: 100%;
@@ -833,12 +841,12 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 32px;
 }
 .footer-soc-item {
   content: "";
   width: 40px;
   height: 40px;
-  margin-bottom: 32px;
 
   display: block;
 }

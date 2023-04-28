@@ -8,10 +8,13 @@
   .container {
     width: 428px;
   }
+
   .mob-menu-btn {
     margin-left: 250px;
   }
+
   .section-hero {
+    padding-bottom: 112px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -50,15 +53,28 @@
   .container {
     width: 768px;
   }
+  .header {
+    padding: 12px 16px 12px 16px;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+  }
+  .address-link {
+    font-size: 12px;
+    line-height: calc(14 / 12);
+
+    letter-spacing: 0.04em;
+
+    color: var(--text);
+  }
   .mob-menu-btn {
     display: none;
   }
   .mob-menu {
     display: none;
   }
-  .header {
+  /* .header {
     padding: 6px;
-  }
+  } */
   .header-list {
     font-weight: 500;
     font-size: 16px;
@@ -93,14 +109,7 @@
 
   .address-list {
   }
-  .address-link {
-    font-size: 16px;
-    line-height: 1.5;
 
-    letter-spacing: 0.02em;
-
-    color: var(--text);
-  }
   .address-link:is(:hover, :focus) {
     color: var(--color-link);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -118,8 +127,12 @@
   .header-address {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 120px;
-    row-gap: 12px;
+    margin-left: auto;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    /* padding-right: 16px; */
+    /* margin-left: 120px; */
+    /* row-gap: 12px; */
 
     /* gap: 40px;
     margin-right: 156px; */
@@ -131,6 +144,11 @@
       ),
       url(../images/people-office.jpg);
   }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -182,7 +200,8 @@
     margin-top: 95px;
   }
   .footer-input {
-    width: 264px;
+    width: 238px;
+    /* width: 264px; */
     height: 40px;
     margin-left: 108px;
   }
@@ -193,6 +212,7 @@
 }
 @media screen and (min-width: 1440px) {
   .container {
+    /* padding-bottom: 188px; */
     width: 1440px;
   }
   .section {
@@ -213,16 +233,27 @@
     gap: 40px;
     margin-right: 156px;
   }
+  .address-link {
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+
+    color: var(--text);
+  }
   .hero-title {
     padding-top: 188px;
   }
   .hero-container {
-    padding-bottom: 188px;
+    /* padding-bottom: 188px; */
   }
   .cust-list {
     margin-left: auto;
     width: 100%;
     flex-wrap: nowrap;
+  }
+  .section-hero {
+    padding-bottom: 188px;
   }
   /* ------------Sectiom 2--------------- */
   .desc-container {
@@ -239,6 +270,8 @@
   }
   .desc-photo-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
     /* display: none; */
     width: 264px;
     height: 112px;
@@ -252,8 +285,6 @@
     width: 64px;
     height: 64px;
     border-radius: 4px;
-    padding-left: 100px;
-    padding-top: 24px;
   }
   .description-list {
     width: 264px;
@@ -278,11 +309,9 @@
   .photo-list {
     display: flex;
     gap: 24px;
+    justify-content: center;
   }
 
-  .photo-list {
-    margin-left: 156px;
-  }
   /* ----Footer---- */
   .footer-container {
     padding-top: 101.5px;
@@ -292,7 +321,7 @@
   }
   .footer-soc-container {
     margin-left: 120px;
-    padding-top: 17px;
+    /* padding-top: 17px; */
   }
   .footer-p-soc {
     display: flex;
@@ -300,7 +329,7 @@
     align-items: center;
   }
   .foot-form-container {
-    margin-top: 0;
-    padding-top: 5px;
+    margin-top: -8px;
+    padding-top: 0;
   }
 }

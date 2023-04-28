@@ -25,7 +25,7 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header class="header">
+    <header class="header container">
       <div class="header-container">
         <nav class="header-navigation">
           <a href="./index.html" class="header-logo link"
@@ -65,7 +65,7 @@
           </svg>
         </button>
       </div>
-      <div class="mob-menu is-hidden" js-menu-container>
+      <div class="mob-menu is-hidden is-open" js-menu-container>
         <div>
           <button type="button" class="menu-close-btn" js-close-menu>
             <svg class="close-icon" width="8" height="8">
@@ -76,7 +76,9 @@
           <nav class="mob-menu-nav">
             <ul class="mob-menu-list list">
               <li class="mob-menu-item">
-                <a class="mob-menu-link link" href="./index.html">Studio</a>
+                <a class="mob-menu-link link current" href="./index.html"
+                  >Studio</a
+                >
               </li>
               <li class="mob-menu-item">
                 <a class="mob-menu-link link" href="./portfolio.html"
@@ -93,7 +95,9 @@
           <div class="menu-address-cont">
             <ul class="mob-menu-address list">
               <li class="menu-address-tel">
-                <a class="menu-address-tel link" href="tel:+110001111111"
+                <a
+                  class="menu-address-tel link current"
+                  href="tel:+110001111111"
                   >+11 (000) 111-11-11</a
                 >
               </li>
@@ -310,7 +314,7 @@
 
       <!-- Section 3 -->
 
-      <section class="photo">
+      <section class="photo container">
         <div class="container">
           <h2 class="photo-titel">What Are We Doing</h2>
           <ul class="photo-list list">
@@ -358,36 +362,38 @@
               />
               <h3 class="team-name">Mark Guerrero</h3>
               <p class="team-text">Product Designer</p>
-              <ul class="team-soc-list list">
-                <li class="team-soc-item">
-                  <a href="" class="team-soc-link link">
-                    <svg class="team-soc-icon" width="16" height="16">
-                      <use href="./images/icons.svg#icon-instagram-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-soc-item">
-                  <a href="" class="team-soc-link link">
-                    <svg class="team-soc-icon" width="16" height="16">
-                      <use href="./images/icons.svg#icon-twitter-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-soc-item">
-                  <a href="" class="team-soc-link link">
-                    <svg class="team-soc-icon" width="16" height="16">
-                      <use href="./images/icons.svg#icon-facebook-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-soc-item">
-                  <a href="" class="team-soc-link link">
-                    <svg class="team-soc-icon" width="16" height="16">
-                      <use href="./images/icons.svg#icon-linkedin-1"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+              <div>
+                <ul class="team-soc-list list">
+                  <li class="team-soc-item">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="team-list">
               <img
