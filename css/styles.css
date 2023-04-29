@@ -78,7 +78,9 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
+.no-scroll {
+  overflow: hidden;
+}
 /* ----------------header--------------- */
 .header {
   box-sizing: border-box;

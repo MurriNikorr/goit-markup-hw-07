@@ -213,7 +213,7 @@
 @media screen and (min-width: 1440px) {
   .container {
     /* padding-bottom: 188px; */
-    width: 1440px;
+    width: 1158px;
   }
   .section {
     padding-top: 120px;
@@ -226,12 +226,12 @@
     padding-bottom: 24px;
   }
   .header-logo {
-    margin-left: 156px;
+    /* margin-left: 156px; */
   }
   .header-address {
     display: flex;
     gap: 40px;
-    margin-right: 156px;
+    /* margin-right: 156px; */
   }
   .address-link {
     font-size: 16px;
@@ -253,11 +253,12 @@
     flex-wrap: nowrap;
   }
   .section-hero {
+    width: 1440px;
     padding-bottom: 188px;
   }
   /* ------------Sectiom 2--------------- */
   .desc-container {
-    margin-left: 156px;
+    /* margin-left: 156px; */
   }
   .desc-item {
     flex-wrap: nowrap;
@@ -311,25 +312,42 @@
     gap: 24px;
     justify-content: center;
   }
-
+  .team {
+    padding-left: 156px;
+    padding-right: 156px;
+  }
+  .cust {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   /* ----Footer---- */
+  .footer {
+    padding-left: 156px;
+    padding-right: 156px;
+  }
+  .footer-logo {
+    margin-left: 0;
+  }
+  .footer-p {
+    display: flex;
+    margin-left: 0;
+  }
   .footer-container {
     padding-top: 101.5px;
     padding-bottom: 100px;
-    padding-left: 60px;
-    /* padding-left: 156px; */
   }
   .footer-soc-container {
-    margin-left: 120px;
-    /* padding-top: 17px; */
+    margin-top: 12px;
+    margin-left: 100px;
   }
   .footer-p-soc {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
   }
   .foot-form-container {
-    margin-top: -8px;
+    flex-wrap: nowrap;
+    margin-top: 0;
     padding-top: 0;
   }
 }
