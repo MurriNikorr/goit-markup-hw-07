@@ -257,6 +257,10 @@
     padding-bottom: 188px;
   }
   /* ------------Sectiom 2--------------- */
+  .description {
+    display: flex;
+    justify-content: center;
+  }
   .desc-container {
     /* margin-left: 156px; */
   }
