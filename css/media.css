@@ -139,6 +139,7 @@
     margin-right: 156px; */
   }
   .section-hero {
+    width: 100%;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -338,6 +339,9 @@
   .footer-p {
     display: flex;
     margin-left: 0;
+  }
+  .footer-soc-link {
+    /* background-color: v; */
   }
   .footer-container {
     padding-top: 101.5px;
