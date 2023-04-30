@@ -59,13 +59,23 @@
           </ul>
         </address>
         <!-- mob-menu -->
-        <button type="button" class="mob-menu-btn" js-open-menu>
+        <button
+          type="button"
+          class="mob-menu-btn"
+          js-open-menu
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg class="mob-menu-svg" width="29.54" height="18.62">
             <use href="./images/icons.svg#icon-mob-menu"></use>
           </svg>
         </button>
       </div>
-      <div class="mob-menu is-hidden is-open" js-menu-container>
+      <div
+        class="mob-menu is-hidden is-open"
+        js-menu-container
+        id="mobile-menu"
+      >
         <div>
           <button type="button" class="menu-close-btn" js-close-menu>
             <svg class="close-icon" width="8" height="8">
@@ -113,28 +123,29 @@
           <ul class="menu-soc-list list">
             <li class="menu-soc-item">
               <a href="" class="menu-soc-link link">
-                <svg class="menu-soc-icon" width="16" height="16">
+                <svg class="menu-soc-icon" width="24" height="24">
+                  24
                   <use href="./images/icons.svg#icon-instagram-1"></use>
                 </svg>
               </a>
             </li>
             <li class="menu-soc-item">
               <a href="" class="menu-soc-link link">
-                <svg class="menu-soc-icon" width="16" height="16">
+                <svg class="menu-soc-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
             <li class="menu-soc-item">
               <a href="" class="menu-soc-link link">
-                <svg class="menu-soc-icon" width="16" height="16">
+                <svg class="menu-soc-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
             <li class="menu-soc-item">
               <a href="" class="menu-soc-link link">
-                <svg class="menu-soc-icon" width="16" height="16">
+                <svg class="menu-soc-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-linkedin-1"></use>
                 </svg>
               </a>
@@ -247,75 +258,73 @@
       <!-- Section 2 -->
 
       <section class="description container section">
-        <div class="desc-container">
-          <h2 hidden class="features">features</h2>
-          <ul class="desc-item list">
-            <div class="desc-photo">
-              <div class="desc-photo-container">
-                <svg class="desc-svg" width="64" height="64">
-                  <use href="./images/icons.svg#icon-antenna-1"></use>
-                </svg>
-              </div>
-              <div class="desc-list-container">
-                <li class="description-list">
-                  <h3 class="description-titel">Strategy</h3>
-                  <p class="description-text">
-                    Our goal is to identify the business problem to walk away
-                    with the perfect and creative solution.
-                  </p>
-                </li>
-              </div>
+        <h2 hidden class="features">features</h2>
+        <ul class="desc-item list">
+          <div class="desc-photo">
+            <div class="desc-photo-container">
+              <svg class="desc-svg" width="64" height="64">
+                <use href="./images/icons.svg#icon-antenna-1"></use>
+              </svg>
             </div>
-            <div class="desc-photo">
-              <div class="desc-photo-container">
-                <svg class="desc-svg" width="64" height="64">
-                  <use href="./images/icons.svg#icon-clock-1"></use>
-                </svg>
-              </div>
+            <div class="desc-list-container">
               <li class="description-list">
-                <h3 class="description-titel">Punctuality</h3>
+                <h3 class="description-titel">Strategy</h3>
                 <p class="description-text">
-                  Bring the key message to the brand's audience for the best
-                  price within the shortest possible time.
+                  Our goal is to identify the business problem to walk away with
+                  the perfect and creative solution.
                 </p>
               </li>
             </div>
-            <div class="desc-photo">
-              <div class="desc-photo-container">
-                <svg class="desc-svg" width="64" height="64">
-                  <use href="./images/icons.svg#icon-diagram-1"></use>
-                </svg>
-              </div>
-              <li class="description-list">
-                <h3 class="description-titel">Diligence</h3>
-                <p class="description-text">
-                  Research and confirm brands that present the strongest digital
-                  growth opportunities and minimize risk.
-                </p>
-              </li>
+          </div>
+          <div class="desc-photo">
+            <div class="desc-photo-container">
+              <svg class="desc-svg" width="64" height="64">
+                <use href="./images/icons.svg#icon-clock-1"></use>
+              </svg>
             </div>
-            <div class="desc-photo">
-              <div class="desc-photo-container">
-                <svg class="desc-svg" width="64" height="64">
-                  <use href="./images/icons.svg#icon-astronaut-1"></use>
-                </svg>
-              </div>
-              <li class="description-list">
-                <h3 class="description-titel">Technologies</h3>
-                <p class="description-text">
-                  Design practice focused on digital experiences. We bring forth
-                  a deep passion for problem-solving.
-                </p>
-              </li>
+            <li class="description-list">
+              <h3 class="description-titel">Punctuality</h3>
+              <p class="description-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+          </div>
+          <div class="desc-photo">
+            <div class="desc-photo-container">
+              <svg class="desc-svg" width="64" height="64">
+                <use href="./images/icons.svg#icon-diagram-1"></use>
+              </svg>
             </div>
-          </ul>
-        </div>
+            <li class="description-list">
+              <h3 class="description-titel">Diligence</h3>
+              <p class="description-text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+          </div>
+          <div class="desc-photo">
+            <div class="desc-photo-container">
+              <svg class="desc-svg" width="64" height="64">
+                <use href="./images/icons.svg#icon-astronaut-1"></use>
+              </svg>
+            </div>
+            <li class="description-list">
+              <h3 class="description-titel">Technologies</h3>
+              <p class="description-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </div>
+        </ul>
       </section>
 
       <!-- Section 3 -->
 
       <section class="photo container">
-        <div class="container">
+        <div class="">
           <h2 class="photo-titel">What Are We Doing</h2>
           <ul class="photo-list list">
             <li>
