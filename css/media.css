@@ -43,7 +43,7 @@
     text-align: center;
   }
   .footer-soc-container {
-    margin-top: 112px;
+    margin-top: 72px;
   }
   .foot-input-btn {
     margin-top: 16px;
@@ -196,11 +196,24 @@
     text-align: left;
   }
   .footer-soc-container {
+    margin-top: 0;
+    margin-bottom: 0;
     margin-top: 17px;
     margin-left: 24px;
   }
+  .foot-soc-titel {
+    justify-content: left;
+    margin-top: -40px;
+  }
+  .footer-soc-list {
+    margin-bottom: 0;
+  }
   .foot-form-container {
-    margin-top: 95px;
+    /* margin-top: 95px; */
+  }
+  .foot-form-titel {
+    margin-top: 72px;
+    padding-right: 275px;
   }
   .footer-input {
     width: 238px;
@@ -256,6 +269,8 @@
     flex-wrap: nowrap;
   }
   .section-hero {
+    padding-left: 0;
+    padding-right: 0;
     width: 1440px;
     padding-bottom: 188px;
   }
@@ -336,6 +351,10 @@
   .footer-logo {
     margin-left: 0;
   }
+  .footer-p-soc {
+    margin-top: -20px;
+  }
+
   .footer-p {
     display: flex;
     margin-left: 0;
@@ -348,10 +367,11 @@
     padding-bottom: 100px;
   }
   .footer-soc-container {
-    margin-top: 20px;
+    margin-top: -15px;
     margin-left: 100px;
   }
   .footer-p-soc {
+    margin-top: 0;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -360,8 +380,13 @@
     flex-wrap: nowrap;
     margin-top: 0;
     padding-top: 0;
+    padding-bottom: 30px;
   }
   .footer-form {
     margin-top: -3px;
+  }
+  .foot-form-titel {
+    margin-top: -17px;
+    margin-bottom: 16px;
   }
 }

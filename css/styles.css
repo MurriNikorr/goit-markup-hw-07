@@ -840,12 +840,24 @@ body {
 
 .footer-soc-container {
 }
+.foot-soc-titel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
 
+  letter-spacing: 0.02em;
+  color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
 .footer-soc-list {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 32px;
+  margin-bottom: 72px;
 }
 .footer-soc-item {
   content: "";
@@ -859,6 +871,9 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+
+  /* background-color: var(--background-color);
+  opacity: 0.1; */
   background-color: var(--second-color);
   display: flex;
   align-items: center;
@@ -872,6 +887,18 @@ body {
   fill: var(--light);
 }
 .footer-form {
+}
+.foot-form-titel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+
+  letter-spacing: 0.02em;
+  color: var(--background-color);
+  display: flex;
+  justify-content: center;
 }
 .foot-form-container {
   padding-top: 17px;
