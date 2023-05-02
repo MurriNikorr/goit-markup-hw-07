@@ -9,15 +9,18 @@
   .container {
     width: 428px;
   }
+  .section {
+    width: 458px;
+  }
   .header-container {
-    margin-left: 0;
+    /* margin-left: 0; */
   }
   .mob-menu-btn {
     margin-left: 250px;
   }
 
   .section-hero {
-    width: 100%;
+    /* width: 100%; */
     padding-bottom: 112px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -67,7 +70,12 @@
   .container {
     width: 768px;
   }
+  .section {
+    width: 798px;
+  }
+
   .header {
+    width: 798px;
     padding: 12px 16px 12px 16px;
     /* padding-left: 16px;
     padding-right: 16px; */
@@ -152,7 +160,7 @@
     margin-right: 156px; */
   }
   .section-hero {
-    width: 100%;
+    /* width: 100%; */
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -160,8 +168,10 @@
       url(../images/people-office.jpg);
   }
   .section-hero > .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    /* padding-left: 15px;
+    padding-right: 15px; */
   }
   .footer-container {
     display: flex;
@@ -180,6 +190,7 @@
     }
   }
   .hero-title {
+    padding-top: 0;
     font-size: 56px;
     margin-bottom: 36px;
   }
@@ -201,6 +212,9 @@
 
   .description-titel {
     text-align: left;
+  }
+  .footer {
+    width: 798px;
   }
   .footer-logo {
     margin-left: 108px;
@@ -250,17 +264,19 @@
     width: 1158px;
   }
   .section {
+    width: 1440px;
     padding-top: 120px;
     padding-bottom: 120px;
   }
   .header {
+    width: 1440px;
     box-sizing: border-box;
     border-bottom: 1px solid var(--accent);
     padding-top: 24px;
     padding-bottom: 24px;
   }
   .header-container {
-    padding-left: 156px;
+    /* padding-left: 156px; */
   }
   .header-container > .container {
     margin-right: 0;
@@ -360,8 +376,10 @@
     justify-content: center;
   }
   .team {
-    padding-left: 156px;
-    padding-right: 156px;
+    padding-left: 0;
+    padding-right: 0;
+    /* padding-left: 156px;
+    padding-right: 156px; */
   }
   .cust {
     padding-top: 120px;
@@ -370,8 +388,11 @@
 
   /* ----Footer---- */
   .footer {
-    padding-left: 156px;
-    padding-right: 156px;
+    width: 1440px;
+    padding-left: 0;
+    padding-right: 0;
+    /* padding-left: 156px;
+    padding-right: 156px; */
   }
   .footer-logo {
     margin-left: 0;
@@ -388,6 +409,7 @@
     /* background-color: v; */
   }
   .footer-container {
+    margin: auto;
     padding-top: 101.5px;
     padding-bottom: 100px;
   }

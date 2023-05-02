@@ -688,7 +688,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .team-img {
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 .team-name {
   font-weight: 500;
@@ -927,7 +927,9 @@ body {
   border-radius: 4px;
   background: var(--logo-color);
 
+  margin-left: 5px;
   padding-left: 16px;
+  /* padding-left: 16px; */
 }
 .footer-input::placeholder {
   color: var(--background-color);
