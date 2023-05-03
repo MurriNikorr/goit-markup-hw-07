@@ -14,6 +14,9 @@
   .footer {
     width: 457px;
   }
+  .team > .container {
+    margin-right: 0;
+  }
 }
 @media screen and (min-width: 428px) {
   .container {
@@ -21,6 +24,9 @@
   }
   .section {
     width: 458px;
+  }
+  .team > .container {
+    margin-right: 0;
   }
   .header-container {
     /* margin-left: 0; */
@@ -327,6 +333,9 @@
     width: 1440px;
     padding-bottom: 188px;
   }
+  .section-hero.section {
+    padding-top: 0;
+  }
   /* ------------Sectiom 2--------------- */
   .description {
     display: flex;
@@ -393,6 +402,9 @@
     padding-right: 0;
     /* padding-left: 156px;
     padding-right: 156px; */
+  }
+  .team > .container {
+    margin: auto;
   }
   .cust {
     padding-top: 120px;
