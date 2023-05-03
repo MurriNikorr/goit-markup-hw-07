@@ -4,7 +4,17 @@
     justify-content: center;
   }
 }
-
+@media screen and (max-width: 427px) {
+  .container {
+    width: 457px;
+  }
+  .section {
+    width: 457px;
+  }
+  .footer {
+    width: 457px;
+  }
+}
 @media screen and (min-width: 428px) {
   .container {
     width: 428px;
@@ -48,6 +58,9 @@
   }
   .desc-item {
     gap: 72px;
+  }
+  .footer {
+    width: 458px;
   }
   .footer-container {
     margin-right: 0;
@@ -427,13 +440,14 @@
     flex-wrap: nowrap;
     margin-top: 0;
     padding-top: 0;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
   }
+
   .footer-form {
     margin-top: -3px;
   }
   .foot-form-titel {
-    margin-top: -17px;
+    margin-top: -50px;
     margin-bottom: 16px;
   }
 }
